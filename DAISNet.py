@@ -636,17 +636,17 @@ def main():
     #         raise Exception("Tensorflow version 1 required")
 
     # 训练的时候的参数(由于采用
-    a.input_dir = "E:/train/imageLocalDiscrim2019052301"
+    a.input_dir = "D:/Tensorflow/DAIS/train"
     a.mode = "train"
-    a.output_dir = "E:/ckt/imageLocalDiscrim2019052301"
-    a.max_epochs=800
+    a.output_dir = "D:/Tensorflow/DAIS/Checkpoint"
+    a.max_epochs=200
     a.which_direction = "BtoA"
 
     # 测试的时候的参数
-    #a.input_dir = "/home/pix2pix/facades/restoreVal/1_images"
+    #a.input_dir = "D:/Tensorflow/DAIS/test"
     #a.mode = "test"
-    #a.output_dir = "/home/pix2pix/facades/restoreTest/1_images"
-    #a.checkpoint = "/home/pix2pix/facades/cktRestore/1_images"
+    #a.output_dir = "D:/Tensorflow/DAIS/test_result"
+    #a.checkpoint = "D:/Tensorflow/DAIS/Checkpoint"
     # 下面這句程序不用添加：因爲在checkpoint中已經把包含了 BtoA的option
     #  options = {"which_direction", "ngf", "ndf", "lab_colorization"}
     #     a.which_direction = "BtoA"
