@@ -13,8 +13,11 @@ Sukun Tian: sukhum169@hotmail.com.
 
 Note that,
 DAIS-DuNet.py is a dual discriminator;
+
 DAISNet.py is deep dental inlay restoration network;
+
 Depth iamge.zip is the depth image of the occlusal surface by orthogonal projection method;
+
 Occlusal Groove.jpg is the depth image of the occlusal groove by orthogonal projection method;
 Only_Data_samply.jpg is a depth image sample;
 Test 1.py is a test code that contains perceptual loss;
