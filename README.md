@@ -12,6 +12,7 @@ For more details or questions, please feel free to contact:
 Sukun Tian: sukhum169@hotmail.com.
 
 Note that,
+
 DAIS-DuNet.py is a dual discriminator;
 
 DAISNet.py is deep dental inlay restoration network;
