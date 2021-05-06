@@ -32,3 +32,19 @@ data-0006.jpg  is a depth image sample;
 pix2pix4.py  is pix2pix model, which takes four images as input.
 
 
+
+If you use our dataset, please cite our paper. Thank you!
+
+Reference:
+
+@ARTICLE{9422832,
+  author={Tian, Sukun and Wang, Miaohui and Yuan, Fulai and Dai, Ning and Sun, Yuchun and Xie, Wuyuan and Qin, Jing},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={Efficient Computer-aided Design of Dental Inlay Restoration: A Deep Adversarial Framework}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TMI.2021.3077334}}
+  
+  https://ieeexplore.ieee.org/document/9422832
